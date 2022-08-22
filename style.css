@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-image: linear-gradient(120deg, rgb(249, 63, 94) 65%, rgb(240, 42, 240));
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+#create{
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(255, 86, 114);
+    height: 30px;
+    width: 80px;
+}
+#sort{
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(255, 86, 114);
+    height: 30px;
+    width: 80px;
+}
+.popup{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+#done{
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(255, 86, 114);
+    height: 30px;
+    width: 80px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-around;
+    height: 50%;
+    align-items: center;
+    border: 0px solid black;
+    padding: 10px 10px;
+    background-image: linear-gradient(rgb(47, 255, 134), green);
+}
+.x-color{
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+    color: white;
+}
+.popup{
+    height: 300px;
+    width: 500px;
+    background-image: linear-gradient(120deg,blueviolet, rgb(255, 58, 91));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+body{
+    background-image: url('https://wallpapercave.com/wp/wp5440531.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: static;
+}
+#wrap{
+    display: none;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-top: 70px;
+}
+.hw{
+    height: 200px;
+    width: 300px;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, lightblue, pink);
+}
+iframe{
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+}
+.delete{
+    position: relative;
+    left: 370px;
+    bottom: 40px;
+}
+h4{
+    margin-left: 10px;
+}
+.descrip{
+    color: red;
+}
+.ans{
+    color: blue;
+}
