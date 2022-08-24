@@ -124,3 +124,30 @@ h4{
 .ans{
     color: blue;
 }
+#action{
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(255, 86, 114);
+    height: 30px;
+    width: 80px;
+}
+#comedy{
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(255, 86, 114);
+    height: 30px;
+    width: 80px;
+}
+#thriller{
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: rgb(255, 86, 114);
+    height: 30px;
+    width: 80px;
+}
