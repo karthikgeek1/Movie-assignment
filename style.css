@@ -109,6 +109,8 @@ iframe{
     position: relative;
     bottom: 70px;
     left: 50px;
+    height: 300px;
+    width: 300px;
 }
 .delete{
     position: relative;

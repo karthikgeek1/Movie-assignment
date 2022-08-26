@@ -48,10 +48,9 @@ container.innerHTML=null
                             <h4><span class="descrip">Actors:</span><span class="ans">${d.Actors}</span></h4>
                             <h4><span class="descrip">rating:</span><span class="ans">${d.IMDB}</span></h4>
                             <h4><span class="descrip">category:</span><span class="ans">${d.Category}</span></h4>`
-                            container.appendChild(newMovie)
+        container.appendChild(newMovie)
         
     })
-}
 const del = document.getElementsByClassName("delete")
 const del1=Array.from(del)
 del1.map((element)=>{
@@ -59,6 +58,7 @@ del1.map((element)=>{
         element.parentElement.remove()
     })
 })
+}
 const sort = document.getElementById("sort")
 sort.addEventListener("click", ()=>{
    let sortedata = data.sort(function(a,b){return a.IMDB-b.IMDB})
